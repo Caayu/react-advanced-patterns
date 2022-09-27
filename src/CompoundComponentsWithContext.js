@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, { createContext, useContext, useState } from 'react';
 import './App.css';
 
 const CheckboxInterface = createContext(null);
@@ -45,7 +45,7 @@ const Label = ({ children }) => {
   return <label htmlFor="something" onClick={e => setChecked(state => !state)}>{children}</label>;
 }
 
-function CompundComponentsWithContext() {
+function CompoundComponentsWithContext() {
   return (
     <Checkbox>
       <CheckboxInput />
@@ -54,4 +54,4 @@ function CompundComponentsWithContext() {
   );
 }
 
-export default CompundComponentsWithContext;
+export default CompoundComponentsWithContext;

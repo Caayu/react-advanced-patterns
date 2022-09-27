@@ -1,7 +1,7 @@
 import './App.css';
 import CommonProps from './CommonProps';
 import CompoundComponents from './CompoundComponents';
-import CompundComponentsWithContext from './CompundComponentsWithContext';
+import CompoundComponentsWithContext from './CompoundComponentsWithContext';
 import StateMachine from './StateMachine';
 import StateMachineWithFetch from './StateMachineWithFetch';
 
@@ -16,7 +16,7 @@ function App() {
       <hr />
       <CompoundComponents />
       <hr />
-      <CompundComponentsWithContext />
+      <CompoundComponentsWithContext />
     </div>
   );
 }
